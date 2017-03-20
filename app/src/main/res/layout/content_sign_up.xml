@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.javawy.car_security.SignUp"
+    tools:showIn="@layout/activity_sign_up">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/LOGO"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableRight="@drawable/passwordicon1"
+        android:hint="password"
+        android:textColor="@color/colorText"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/colorHinting"
+        android:background="@drawable/btn"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:paddingRight="15dp"
+        android:layout_alignEnd="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:drawableRight="@drawable/usericon1"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHinting" />
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/btn"
+        android:drawableRight="@drawable/smartphone2"
+        android:hint="phone"
+        android:paddingLeft="20dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHinting"
+        android:paddingRight="15dp"
+        />
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/btn"
+        android:drawableRight="@drawable/key"
+        android:hint="code"
+        android:paddingLeft="20dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHinting"
+        android:paddingRight="15dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn2"
+        android:text="signup"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/colorText"
+        />
+
+</RelativeLayout>
