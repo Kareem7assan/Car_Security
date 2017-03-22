@@ -5,4 +5,5 @@
     <color name="colorAccent">#e61c4b</color>
     <color name="colorText">#FFFFFF</color>
     <color name="colorHinting">#80FFFFFF</color>
+    <color name="checkBox">#4888db</color>
 </resources>
