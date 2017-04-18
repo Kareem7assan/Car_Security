@@ -8,7 +8,15 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.javawy.car_security.SignUp"
     tools:showIn="@layout/activity_sign_up">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="50dp"
+            >
 
     <ImageView
         android:id="@+id/imageView2"
@@ -99,12 +107,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/code"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/btn2"
         android:text="signup"
         android:textStyle="bold"
         android:textSize="17dp"
         android:textColor="@color/colorText"
         />
-
+</RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

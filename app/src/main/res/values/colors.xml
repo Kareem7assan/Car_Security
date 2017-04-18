@@ -6,4 +6,5 @@
     <color name="colorText">#FFFFFF</color>
     <color name="colorHinting">#80FFFFFF</color>
     <color name="checkBox">#4888db</color>
+    <color name="prof">#00FFFFFF</color>
 </resources>
