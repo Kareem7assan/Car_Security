@@ -108,11 +108,12 @@
         android:layout_below="@+id/code"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:background="@drawable/btn2"
+        android:background="@drawable/btn3"
         android:text="signup"
         android:textStyle="bold"
         android:textSize="17dp"
         android:textColor="@color/colorText"
+        android:onClick="onSignUp"
         />
 </RelativeLayout>
     </ScrollView>

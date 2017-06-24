@@ -21,6 +21,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.javawy.car_security.utilities.SessionMangement;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -88,6 +90,10 @@ public class MainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             startActivity(new Intent(MainActivity.this,ProfileActivity.class));
+        }
+        else if (id==R.id.log){
+            SessionMangement sessionMangement = new SessionMangement(MainActivity.this);
+            sessionMangement.logout();
         }
 
         return super.onOptionsItemSelected(item);

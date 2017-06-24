@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "343420179777",
+    "firebase_url": "https://carsecurity-53afb.firebaseio.com",
+    "project_id": "carsecurity-53afb",
+    "storage_bucket": "carsecurity-53afb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343420179777:android:5cec5852d40110cc",
+        "android_client_info": {
+          "package_name": "com.example.javawy.car_security"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343420179777-o0ggerflbikjn3genqjafv2fih9idmc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBhG40kQ7LitrU4UWn39ZhwJVwAxHJrGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
