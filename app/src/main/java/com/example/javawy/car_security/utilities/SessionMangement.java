@@ -42,4 +42,13 @@ public class SessionMangement {
         //redirect
         context.startActivity(intent);
     }
+    public void tokenUpload(boolean mobToken){
+        mEditor.putBoolean("token",mobToken);
+        mEditor.commit();
+    }
+    public boolean isExist(){
+
+        return mPref.getBoolean("token",false);
+
+    }
 }
