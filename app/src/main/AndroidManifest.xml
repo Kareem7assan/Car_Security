@@ -8,7 +8,7 @@
          location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -56,18 +56,12 @@
         <activity
             android:name=".ProfileActivity"
             android:label=" " />
-        <service android:name=".myServices.Registeration_Service"
 
-            >
-
-        </service>
-        <service android:name=".myServices.GcmListner"
-
-            >
-            <intent-filter >
+        <service android:name=".myServices.Registeration_Service"></service>
+        <service android:name=".myServices.GcmListner">
+            <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
-
         </service>
         <service
             android:name=".myServices.TokenListner"
@@ -76,6 +70,10 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name=".ThiefActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
     </application>
 
 </manifest>
